@@ -1,10 +1,14 @@
+# -*- coding: utf-8 -*-
+
+
+
 import google.generativeai as genai
 
 
 
 
 # Configure the API with your API key
-genai.configure(api_key=google_api_key)
+genai.configure(api_key="GEMINI_API_KEY")
 
 model = genai.GenerativeModel('gemini-pro')
 # model = genai.GenerativeModel('gemini-pro-vision')
@@ -15,4 +19,5 @@ def gemin (vari):
     l2=re.replace("*","")
     # print(l2)
     return l2
-# print(gemin("what is an LLM "))
+# -*- coding: utf-8 -*-
+# print(gemin("Tell me about virat kohli in hindi"))
